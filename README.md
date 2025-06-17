@@ -47,13 +47,16 @@
 
 ## AUTO SCALING GROUP CREATION
 
-- Search for auto scaling group on aws console
-- Or Unde EC2, you can still find auto scaling group
+- Search for EC2, scroll down at the left end
 - Click on auto scaling group
+- Click on Create auto scaling group
 - For best practise, use a launch template to create 
   the auto scaling group, this is because you can use 
   the launch templates across different auto scaling 
   groups.
+
+![Screenshot 2025-06-17 150733](https://github.com/user-attachments/assets/2ab1d918-4643-41d0-abe5-b3dddfdfccfc)
+
 - Click on launch template to create a launch template.
 - Give a name to the launch template
 - Enter a description for the template
@@ -70,6 +73,9 @@
 
 - Click on launch template
 
+![image](https://github.com/user-attachments/assets/ea3ca540-f20c-4a25-b467-0ce1dd727fea)
+  
+
 #### Go back to the auto scaling group console 
 
 - Enter the name of the auto scaling group
@@ -85,7 +91,11 @@
 - Click again on next, next
 - Click on Create auto scaling group
 
+![Screenshot 2025-06-17 154806](https://github.com/user-attachments/assets/3a3f3186-32c2-4830-b067-f26fc5e4f759)
+  
 - Check if your instances are created on aws.
+
+ ![Screenshot 2025-06-17 155021](https://github.com/user-attachments/assets/ecef4b9e-993d-4846-baa3-f0b5593aa52e)
 
 ## BASTON HOST CREATION
 

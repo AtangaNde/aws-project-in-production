@@ -4,11 +4,10 @@
 - login to your aws account
 - Search for VPC on the AWS console, you will see an option
   for isolated cloud resource VPC, click on that.
-- Click on create VPC
 
 ![Screenshot 2025-06-17 143057](https://github.com/user-attachments/assets/09b3b0a0-2602-48a2-b72a-4c927f89b743)
 
-  
+- Click on create VPC
 - select how to create the VPC
   either cearte vpc only or VPC and more
     - if you select vpc only then you will have to create
@@ -16,6 +15,9 @@
     - if you select vpc and more, then aws will create
       everything for you.
 - so select vpc and more
+
+![Screenshot 2025-06-17 144555](https://github.com/user-attachments/assets/98a87188-6266-4d36-901e-108c16a8e744)
+
      - aws will create, 
          - private and public subnets in two 
            availability zones (AZ)
@@ -34,7 +36,14 @@
 - If you will use s3 bucket in your project then
   select vpc endpoints
 
-- Click on Create VPC  
+- Click on Create VPC
+
+  ![Screenshot 2025-06-17 145246](https://github.com/user-attachments/assets/b95947b1-8169-427e-9442-505f26ca7c3c)
+  ![Screenshot 2025-06-17 145613](https://github.com/user-attachments/assets/850e01f5-29e9-4faa-87c3-cc3c780712af)
+  ![Screenshot 2025-06-17 145521](https://github.com/user-attachments/assets/b86109f0-b8f0-4330-8747-58806ef96799)
+
+
+
 
 ## AUTO SCALING GROUP CREATION
 

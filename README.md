@@ -1,10 +1,14 @@
 ## AWS PROJECT USE IN PRODUCTION
 
 ### VPC CREATION
-
+- login to your aws account
 - Search for VPC on the AWS console, you will see an option
   for isolated cloud resource VPC, click on that.
 - Click on create VPC
+
+![Screenshot 2025-06-17 143057](https://github.com/user-attachments/assets/09b3b0a0-2602-48a2-b72a-4c927f89b743)
+
+  
 - select how to create the VPC
   either cearte vpc only or VPC and more
     - if you select vpc only then you will have to create

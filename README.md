@@ -102,10 +102,24 @@
 - launch and instance in the same VPC and enable
   auto assign public IPaddress
 
-- ssh to the baston host 
-- Copy your private key to the baston host
-- use the key to ssh to your backend servers
+![Screenshot 2025-06-17 155745](https://github.com/user-attachments/assets/b3c6f088-5753-4c67-9e81-4607a85285a0)
 
+- ssh to the baston host
+
+  ![Screenshot 2025-06-17 160405](https://github.com/user-attachments/assets/fdb2d16a-f7dd-4ea4-b4b6-cdf60d38a084)
+
+- Copy your private key to the baston host
+- 
+           scp -i awskey.pem /c/Users/USER/Downloads/awskey.pem ec2-user@54.179.167.114:/home/ec2-user
+
+![Screenshot 2025-06-17 160924](https://github.com/user-attachments/assets/d83619fe-62c8-49ef-a3e5-6e98f33a828d)
+
+- use the key to ssh to your backend servers using the private IPaddress
+
+![Screenshot 2025-06-17 164222](https://github.com/user-attachments/assets/3cc386f1-7944-4150-b718-958176706184)
+
+
+  
 - Deploy an application in the backend server
 - e.g
    type <w3 schools html basics> on your browser and 
@@ -115,6 +129,9 @@
    - Run the code using;
      - python3 -m http.server <port number>
      e.g python3 -m http.server 8000
+
+![Screenshot 2025-06-17 163034](https://github.com/user-attachments/assets/51a05fe4-9504-414f-a8b4-4f7bc0d5b432)
+
            
 OR
    use the below script to install docker and run prometheus and grafana as a container in the server
@@ -138,6 +155,9 @@ OR
 - scroll down at the left end and search for load balancers
 - Click on load balancers
 - Select application load balancer
+
+  ![Screenshot 2025-06-17 165408](https://github.com/user-attachments/assets/8748bb25-aeb7-4cad-bf5b-a013e9a0241e)
+
 - Provide the load balancer name
 - Make sure the load balance is internet facing
 - Select the VPC that you created
@@ -151,9 +171,16 @@ OR
    - select the backend instances
    - Click on include as pending
    - Create target group
+
+     ![Screenshot 2025-06-17 165131](https://github.com/user-attachments/assets/89375cbd-a9d5-40c0-82e9-adb2e27abb72)
+
 - Go back on your load balancer tab, select the target group
   you created.
-- Click on Create load balancer 
+- Click on Create load balancer
+
+  ![Screenshot 2025-06-17 170712](https://github.com/user-attachments/assets/f8ba9b9c-20e2-47e9-8903-b76b57e51ff8)
+
+ 
 - Check if access port is open on your load balancer SG
   - if not, open it.
 

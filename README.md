@@ -191,7 +191,8 @@ OR
 
 - copy the load balancer DNS and access your application.
 
-  ![Screenshot 2025-06-17 172641](https://github.com/user-attachments/assets/1c654e48-414d-45d2-a156-3898d53a4be9)
+![Screenshot 2025-06-17 174329](https://github.com/user-attachments/assets/566faafd-c6a1-45c4-84b7-7f92f4af5fd8)
+
 
 
 **Congratulations, you have successfully set a production

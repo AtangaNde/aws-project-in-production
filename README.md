@@ -1,5 +1,8 @@
 ## AWS PROJECT USE IN PRODUCTION
 
+![image](https://github.com/user-attachments/assets/3baeb7b7-1482-42b0-abc6-3fef100cd0e9)
+
+
 ### VPC CREATION
 - login to your aws account
 - Search for VPC on the AWS console, you will see an option

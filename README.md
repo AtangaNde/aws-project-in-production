@@ -191,6 +191,9 @@ OR
 
 - copy the load balancer DNS and access your application.
 
+  ![Screenshot 2025-06-17 172641](https://github.com/user-attachments/assets/1c654e48-414d-45d2-a156-3898d53a4be9)
+
+
 **Congratulations, you have successfully set a production
 grade environment on AWS with a secured application running on
 it**    
